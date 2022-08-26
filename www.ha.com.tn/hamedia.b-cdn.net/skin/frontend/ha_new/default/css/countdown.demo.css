@@ -1,0 +1,210 @@
+.alt-1 {
+    margin: 0 auto;
+    text-align: center;
+    min-height: 65px;
+    padding-top: 10px
+}
+
+.countdown {
+    display: table-cell;
+    font-weight: 400
+}
+
+.countdown .item {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    font-family: open sans, cursive;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 180px;
+    text-align: center;
+    color: #b7b7b7;
+    border-radius: 10px;
+    margin: 50px 10px 50px 0;
+    padding: 0 10px;
+    background: #2a2a2a;
+    background: -webkit-linear-gradient(#2A2A2A, #000);
+    background: linear-gradient(#2A2A2A, #000);
+    overflow: hidden
+}
+
+.countdown .item-ss {
+    font-size: 50px;
+    line-height: 70px
+}
+
+.countdown .item:after {
+    content: '';
+    display: block;
+    height: 1px;
+    border-top: 3px solid #111;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0
+}
+
+.countdown .label {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    font-family: open sans, cursive;
+    font-weight: 700;
+    line-height: normal;
+    right: 6px;
+    bottom: 4px;
+    font-size: 14px;
+    color: #b9b9b9
+}
+
+.countdown .item-hh .label,
+.countdown .item-mm .label,
+.countdown .item-ss .label {
+    display: none
+}
+
+.countdown-alt-1 {
+    display: block;
+    font-size: 0;
+    color: #000
+}
+
+.countdown-alt-1 .item {
+    position: relative
+}
+
+.countdown-alt-1 .dd,
+.countdown-alt-1 .hh-1,
+.countdown-alt-1 .hh-2,
+.countdown-alt-1 .mm-1,
+.countdown-alt-1 .mm-2,
+.countdown-alt-1 .ss-1,
+.countdown-alt-1 .ss-2 {
+    background: #ef4b24;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px 2px;
+    min-width: 27px;
+    padding: 5px 10px;
+    text-align: center
+}
+
+.countdown-alt-1 .hh-1,
+.countdown-alt-1 .hh-2,
+.countdown-alt-1 .mm-1,
+.countdown-alt-1 .mm-2,
+.countdown-alt-1 .ss-1,
+.countdown-alt-1 .ss-2 {
+    max-width: 40px
+}
+
+.countdown-alt-1 .label {
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 1px 0;
+    padding: 2px 0;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    right: 0
+}
+
+.countdown-alt-1 .separator-dd,
+.countdown-alt-1 .separator {
+    color: #ef4b24;
+    font-size: 19px;
+    position: relative
+}
+
+.countdown-alt-2 {
+    font-size: 0;
+    display: block;
+    overflow: auto;
+    padding: 20px 0;
+    margin: 50px 0;
+    font-family: trebuchet ms, lucida grande, Verdana, Arial, Sans-Serif;
+    color: #333;
+    -webkit-transform: skew(-2deg, -2deg);
+    transform: skew(-2deg, -2deg)
+}
+
+.countdown-alt-2 .item {
+    display: block;
+    float: left;
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 36px 20px 10px;
+    margin: 0 10px;
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .2)
+}
+
+.countdown-alt-2 .dd,
+.countdown-alt-2 .hh-1,
+.countdown-alt-2 .hh-2,
+.countdown-alt-2 .mm-1,
+.countdown-alt-2 .mm-2,
+.countdown-alt-2 .ss-1,
+.countdown-alt-2 .ss-2 {
+    font: italic;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 3px #333
+}
+
+.countdown-alt-2 .label {
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    width: 120px;
+    padding: 5px 10px;
+    background: #0b81bc;
+    color: #fff
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .countdown-alt-1 .dd,
+    .countdown-alt-1 .hh-1,
+    .countdown-alt-1 .hh-2,
+    .countdown-alt-1 .mm-1,
+    .countdown-alt-1 .mm-2,
+    .countdown-alt-1 .ss-1,
+    .countdown-alt-1 .ss-2 {
+        font-size: 10px;
+        margin: 1px 2px;
+        min-width: 15px;
+        padding: 5px 2px
+    }
+    .countdown-alt-1 .label {
+        font-size: 9px;
+        margin: 1px 0;
+        padding: 2px 0
+    }
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+    .countdown-alt-1 .dd,
+    .countdown-alt-1 .hh-1,
+    .countdown-alt-1 .hh-2,
+    .countdown-alt-1 .mm-1,
+    .countdown-alt-1 .mm-2,
+    .countdown-alt-1 .ss-1,
+    .countdown-alt-1 .ss-2 {
+        font-size: 15px;
+        min-width: 24px;
+        margin: 1px 2px;
+        padding: 5px 2px
+    }
+    .countdown-alt-1 .label {
+        font-size: 11px;
+        margin: 1px 0;
+        padding: 2px 0
+    }
+}

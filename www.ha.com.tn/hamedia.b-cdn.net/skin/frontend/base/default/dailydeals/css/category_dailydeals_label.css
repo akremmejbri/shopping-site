@@ -1,0 +1,30 @@
+div.dailydeals-category-container-grid {
+    position: relative
+}
+
+div.dailydeals-category-container-list {
+    position: relative;
+    float: left
+}
+
+.dailydeals-category-container {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100
+}
+
+div.dailydeals-category-label {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    margin-left: -2px;
+    text-align: center
+}
+
+div.custom-dailydeals-category-label-text {
+    color: #fff;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 700
+}

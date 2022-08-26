@@ -1,0 +1,28 @@
+.dailydeals-product-container {
+    cursor: pointer;
+    position: relative;
+    z-index: 100
+}
+
+.dailydeals-product-container-inside {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100
+}
+
+div.dailydeals-product-label {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    margin-left: -2px;
+    text-align: center
+}
+
+div.custom-dailydeals-product-label-text {
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 700
+}

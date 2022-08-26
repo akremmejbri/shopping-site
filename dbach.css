@@ -1,0 +1,301 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+nav .containernav{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.containernav{
+    justify-content: space-around;
+    align-content: space-between;
+}
+.nav-center{
+    margin-top: 15px;
+}
+.containernav .nav-center ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+.containernav .nav-center li{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+.containernav .nav-center .nav-item a {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    text-decoration: none;
+}
+nav .containernav .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+nav .containernav .nav-right ul{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+nav p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+nav a {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+nav .logo img{
+    width: 150px;
+}
+nav ul img{
+    width: 20px;
+}
+.textimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.carousel{
+    width: 650px;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 450px;
+}
+.text1 h1{
+    font-size: 50px;
+}
+.text1 button{
+    width: 120px;
+    background-color: black;
+}
+.text1 button img{
+    background-color: rgba(254 200 88);
+}
+
+.text1 button a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.deslogo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 90px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+.deslogo img{
+    width: 120px;
+}
+.imgandtext .onlimg{
+    width: 500px;
+}
+.forimg .imgfor1{
+    width: 404px;
+}
+.i5mg{
+    display: flex;
+    flex-direction: row;
+}
+.forimg{
+    width: 1000px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tootext{
+    margin-left: 10px;
+}
+
+.favorit-collection-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgba(128, 128, 128, 0.132);
+    width: 100%;
+}
+
+.cart-containner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 248, 248, 0.702);
+    width: 253px;
+    height: 495px;
+    border-radius: 10px;
+}
+.cart img{
+    width: 250px;
+    border-radius: 9px;
+}
+.heart{
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: -106px;
+    margin-left: 190px;
+    background-color: white;
+}
+.cart h2{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-top: -11px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.cart h3{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.cart h4{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: -25px;
+    margin-left: 192px;
+    padding: 0px;
+    color: rgba(13, 193, 52, 0.834);
+}
+.cart p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 26px;
+    color: crimson;
+}
+.cart .ktiba{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.cart-containner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.social-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:30px;
+}
+.social-links li{
+    display:inline-block;
+    margin:0 5px;
+    border-radius:3px;
+    box-shadow:0 4px 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+.social-links li a {
+    display:block;
+    color:#fff;
+    font-size:21px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:#509B9E;
+    border-radius:50%;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+.social-links li a:hover {
+    color:#fff;
+    background:#f9398c;
+}
+.containerone{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.containertow{
+    display: flex;
+    flex-direction: column;
+    width: 209px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.containerthr{
+    display: flex;
+    flex-direction: column;
+    width: 216px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.containerthr input{
+    border-radius: 15px !important;
+}
+.containerthr input ::placeholder{
+    margin-left: 10px;  
+}
